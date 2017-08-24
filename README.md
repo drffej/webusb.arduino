@@ -12,7 +12,7 @@ The demo shows:
 3. Reconnecting on Browser refresh (if paired)
 4. Disconnecting and reconnecting if the device is unplugged from the USB port
 
-This works on Windows 10 hardware and will update when I have tested this on the Mac.
+This works on Windows 10 hardware and on a Mac.
 
 Compatible Hardware
 -------------------
