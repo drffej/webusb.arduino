@@ -36,7 +36,11 @@ C. Accessing the demo HTML and Javascript
 A. Setting Chrome for WebUSB
 ----------------------------
 
-The implementation is available via the "Experimental Web Platform Features" flag.  So go to chrome://flags/#enable-experimental-web-platform-features and enable  flag.
+The implementation is available via the "Experimental Web Platform Features" flag.  
+
+1. Navigate to chrome://flags
+2. Enable the flag called '#enable-experimental-web-platform-features'
+3. Close and restart the browser
 
 You may also want to check out  chrome://device-log where you can see all USB device related events in case of issues.
 
@@ -60,8 +64,16 @@ B.Installing Arduino WebUSB library
 C. Access the Demo
 ------------------
 
-1. Plug the device into your PC/Mac and open the browser to XXXX
-2. Click on 'Connect' to pair the device
-3. Click on Toggle to turn on/off the Led
+1. Start the browser with security features disabled - e.g. "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-webusb-security
+2. Plug the device into your PC/Mac and open the browser to https://drffej.github.io/webusb.arduino/
+3. Click on 'Connect' to pair the device
+4. Click on Toggle to turn on/off the Led
+
+
+Alternately you can run this locally via
+
+$ python -m http.server
+
+or any other webserver and this does not need the security features disabling!
 
 JP 24/08/2017
