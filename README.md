@@ -40,7 +40,8 @@ The implementation is available via the "Experimental Web Platform Features" fla
 
 1. Navigate to chrome://flags
 2. Enable the flag called '#enable-experimental-web-platform-features'
-3. Close and restart the browser
+3. Enable the flag called '#enable-webusb'
+4. Close and restart the browser
 
 You may also want to check out  chrome://device-log where you can see all USB device related events in case of issues.
 
