@@ -27,25 +27,12 @@ These boards are both based on the ATmega32U4.
 Getting Started
 ---------------
 
-There three parts to getting this work - 
+There two parts to getting this work - 
 
-A. Setting up Chrome for WebUSB.
-B. Installing Arduino WebUSB library and compiling the Sketch
-C. Accessing the demo HTML and Javascript
+A. Installing Arduino WebUSB library and compiling the Sketch
+B. Accessing the demo HTML and Javascript
 
-A. Setting Chrome for WebUSB
-----------------------------
-
-The implementation is available via the "Experimental Web Platform Features" flag.  
-
-1. Navigate to chrome://flags
-2. Enable the flag called '#enable-experimental-web-platform-features'
-3. Enable the flag called '#enable-webusb'
-4. Close and restart the browser
-
-You may also want to check out  chrome://device-log where you can see all USB device related events in case of issues.
-
-B.Installing Arduino WebUSB library
+A.Installing Arduino WebUSB library
 -----------------------------------
 
 1. Install at least version 1.6.11 of the [Arduino IDE](https://www.arduino.cc/en/Main/Software).
@@ -62,7 +49,7 @@ B.Installing Arduino WebUSB library
 
 6. Load up `arduino/ledlight/ledlight.ino` and program it to your device.
 
-C. Access the Demo
+B. Access the Demo
 ------------------
 
 1. Start the browser with security features disabled - e.g. "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-webusb-security
@@ -75,6 +62,6 @@ Alternately you can run this locally via
 
 $ python -m http.server
 
-or any other webserver and this does not need the security features disabling!
+or any other webserver.
 
-JP 24/08/2017
+JP 26/11/2017
